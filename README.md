@@ -6,11 +6,11 @@
     ```shell
     git clone git@github.com:milenvoutchev/skelly-react.git
     ```
-1. Set API key
+1. (optional) Create a `.env` file
     ```shell
     cp .env.dist .env
     ```
-   And fill out in `.env` your personal API key (from https://financialmodelingprep.com/developer/docs/dashboard).
+   ...and fill out any needed environment variables in `.env`.
 1. Install dependencies
     ```shell
     npm install
